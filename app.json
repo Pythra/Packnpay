@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Pack",
+    "slug": "Pack",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/pogo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/pogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.raven555.Pack",
+      "buildNumber": "1" 
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/pogo.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/pack.jpg"
+    },
+    "plugins": [
+      "expo-secure-store"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "092e9e44-ba71-48c2-a377-6875ff2ea038"
+      }
+    },
+    "owner": "raven555"
+  }
+}
